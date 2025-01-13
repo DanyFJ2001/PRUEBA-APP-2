@@ -86,7 +86,7 @@ const Inicio: React.FC<LoginProps> = ({ navigation }) => {
         <Text style={styles.buttonText}>Iniciar sesión</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate('Register')}>
+      <TouchableOpacity onPress={() => navigation.navigate('Registro')}>
         <Text style={styles.linkText}>¿No tienes cuenta? Regístrate</Text>
       </TouchableOpacity>
 
